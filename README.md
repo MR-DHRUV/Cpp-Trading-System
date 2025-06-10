@@ -2,7 +2,6 @@
 
 This repository contains two main components: **Trading System** and **WebSocket Server**, both designed to interact with the Deribit API for trading and real-time market updates. These systems are optimized for ultra-low latency and high-frequency trading applications.
 
----
 
 ## Trading System
 
@@ -32,7 +31,6 @@ The **Trading System** is a C++ application designed to interface with the Derib
 3. Compile the project using a C++ compiler.
 4. Run the executable file.
 
----
 
 ## WebSocket Server
 
@@ -60,7 +58,6 @@ The **WebSocket Server** provides real-time updates to clients subscribed to dif
 2. Compile the project using a C++ compiler.
 3. Run the executable file.
 
----
 
 ## Folder Structure
 - **Trading System**: Contains the C++ application for trading functionalities.
@@ -68,7 +65,6 @@ The **WebSocket Server** provides real-time updates to clients subscribed to dif
     - **Server**: WebSocket server implementation.
     - **Client**: Sample client for testing WebSocket server functionality.
 
----
 
 ## References
 - [Deribit API Documentation](https://docs.deribit.com/)
