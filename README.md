@@ -1,10 +1,11 @@
 # C++ Trading System
-
 This repository contains two main components: **Trading System** and **WebSocket Server**, both designed to interact with the Deribit API for trading and real-time market updates. These systems are optimized for ultra-low latency and high-frequency trading applications.
 
+## Contents
+- [Trading System](#trading-system)
+- [WebSocket Server](#websocket-server)
 
 ## Trading System
-
 The **Trading System** is a C++ application designed to interface with the Deribit API. It provides functionalities for authentication, order placement, order management, and market data retrieval. The system ensures low latency, making it ideal for high-frequency trading.
 
 ### Key Features
@@ -33,7 +34,6 @@ The **Trading System** is a C++ application designed to interface with the Derib
 
 
 ## WebSocket Server
-
 The **WebSocket Server** provides real-time updates to clients subscribed to different trading symbols. It broadcasts changes in order book data using WebSocket technology, ensuring faster data delivery and responsiveness to market changes.
 
 ### Key Features
